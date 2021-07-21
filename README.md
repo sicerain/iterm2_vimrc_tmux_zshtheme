@@ -11,4 +11,4 @@ function git_prompt_info() {
 }
 ```
 ---
-![image](https://user-images.githubusercontent.com/61652635/126428486-a1a3417e-976e-4c0f-8b69-29de6ca9aa54.png)
+![image](https://user-images.githubusercontent.com/61652635/126428556-c3c55b60-0886-427a-a7ec-8a514ba63af5.png)
