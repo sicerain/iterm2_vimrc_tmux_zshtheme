@@ -13,7 +13,7 @@ YS_VCS_PROMPT_DIRTY=" %{$fg[red]%}x"
 YS_VCS_PROMPT_CLEAN=" %{$fg[green]%}o"
 
 # Git info
-local git_info=''
+local git_info='$(git_prompt_info)'
 ZSH_THEME_GIT_PROMPT_PREFIX="${YS_VCS_PROMPT_PREFIX1}git${YS_VCS_PROMPT_PREFIX2}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="$YS_VCS_PROMPT_SUFFIX"
 ZSH_THEME_GIT_PROMPT_DIRTY="$YS_VCS_PROMPT_DIRTY"
@@ -62,6 +62,7 @@ PROMPT="
 %{$terminfo[bold]$fg[yellow]%}%~%{$reset_color%}\
 ${hg_info}\
 ${venv_info}\
+${git_info}\
  \
 %{$fg[white]%}[%*] %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
 #%{$terminfo[bold]$fg[red]%}$ %{$reset_color%}"
