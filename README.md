@@ -1,9 +1,9 @@
 # iterm2_vimrc_tmux_zshtheme
 config of iterm2 vim tmux zshtheme
 ---
-pwd of ys.zsh-theme:`~/.oh-my-zsh/themes`
-for only support git branch
-change `~/.oh-my-zsh/lib/git.zsh` git_prompt_info function
+pwd of ys.zsh-theme:`~/.oh-my-zsh/themes`<br>
+for only support git branch<br>
+change `~/.oh-my-zsh/lib/git.zsh` git_prompt_info function<br>
 ```bash
 function git_prompt_info() {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
@@ -11,4 +11,4 @@ function git_prompt_info() {
 }
 ```
 ---
-![image](https://user-images.githubusercontent.com/61652635/125166260-5b39ec00-e1cd-11eb-87ae-185896e0450c.png)
+![image](https://user-images.githubusercontent.com/61652635/126427932-68426b6d-19fe-438e-95cc-d44e7469fe48.png)
